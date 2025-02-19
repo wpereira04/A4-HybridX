@@ -1,11 +1,11 @@
 ////////////////////////////////////////////////////////
 //
-// ECE 3574, A3, Walter Pereira Cruz
+// ECE 3574, A4, Walter Pereira Cruz
 // File name: test.cpp
 // Description: Contains the tests for the movie and movie_factory
 //				functions or class.
 //				
-// Date:        02/09/2025
+// Date:        02/19/2025
 //
 
 #define CATCH_CONFIG_MAIN

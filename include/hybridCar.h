@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////
+//
+// ECE 3574, A4, Walter Pereira Cruz
+// File name: hybridCar.h
+// Description: Contains the class and member declarations
+// for the hybridCar class. Inherits from gasolineCar and 
+// electricCar classes which inherit from car class.
+//				
+// Date:        02/19/2025
+//
 #ifndef HYBRID_HEADER
 #define HYBRID_HEADER
 #include "gasolineCar.h"
@@ -10,12 +20,13 @@ class hybridCar: public gasolineCar, public electricCar
 public:
 	hybridCar();
 	~hybridCar();
+	// pure virtual
 	std::string Drive();
+	// virtual needs override
 	std::string Refuel() override;
+	// virtual needs override
 	std::string ChargeBattery() override;
+	// virtual needs override
 	std::string SwitchMode() override;
-
-private:
-
 };
 #endif // !HYBRID_HEADER
