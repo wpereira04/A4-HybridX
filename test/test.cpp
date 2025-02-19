@@ -14,9 +14,9 @@
 
 
 TEST_CASE("Testing Movie project methods") {
-	hybridCar hybrid;
-	electricCar elec;
-	gasolineCar gas;
+	HybridCar hybrid;
+	ElectricCar elec;
+	GasolineCar gas;
 
 	SECTION("Testing vehicle calls") {
 		REQUIRE(hybrid.Drive() == "Drive hybridCar");
