@@ -15,11 +15,11 @@
 #include <string>
 
 
-class hybridCar: public gasolineCar, public electricCar 
+class HybridCar: public GasolineCar, public ElectricCar 
 {
 public:
-	hybridCar();
-	~hybridCar();
+	HybridCar();
+	~HybridCar();
 	// pure virtual
 	std::string Drive();
 	// virtual needs override

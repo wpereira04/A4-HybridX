@@ -10,27 +10,27 @@
 #include "hybridCar.h"
 
 // constructor
-hybridCar::hybridCar() {
+HybridCar::HybridCar() {
 	
 }
 // destructor
-hybridCar::~hybridCar() {
+HybridCar::~HybridCar() {
 
 }
 // SwitchMode only for hybrid
-std::string hybridCar::SwitchMode() {
+std::string HybridCar::SwitchMode() {
 	return "SwitchMode hybridCar";
 }
 // Drive part of all classes
-std::string hybridCar::Drive() {
+std::string HybridCar::Drive() {
 	return "Drive hybridCar";
 }
 // Refuel part of hybrid and gasoline
-std::string hybridCar::Refuel(){
+std::string HybridCar::Refuel(){
 	return "Refuel hybridCar";
 }
 // ChargeBattery part of hybrid and electric
-std::string hybridCar::ChargeBattery() {
+std::string HybridCar::ChargeBattery() {
 	return "ChargeBattery hybridCar";
 }
 

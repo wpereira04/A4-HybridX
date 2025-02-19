@@ -9,18 +9,18 @@
 //
 #include "gasolineCar.h"
 
-gasolineCar::gasolineCar()
+GasolineCar::GasolineCar()
 {
 }
 
-gasolineCar::~gasolineCar()
+GasolineCar::~GasolineCar()
 {
 }
 // Redefines Drive function for gasolineCar
-std::string gasolineCar::Drive() {
+std::string GasolineCar::Drive() {
 	return "Drive gasolineCar";
 }
 // Redefines Refuel function for gasolineCar
-std::string gasolineCar::Refuel() {
+std::string GasolineCar::Refuel() {
 	return "Refuel gasolineCar";
 }

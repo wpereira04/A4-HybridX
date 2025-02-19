@@ -14,15 +14,15 @@
 
 
 // inherit virtual car class to resolve diamond problem
-class electricCar : virtual public car
+class ElectricCar : virtual public Car
 {
 public:
 	// pure virutal from car class no overrided needed
 	std::string Drive();
 	// chargeBattery is virtual so override
 	std::string ChargeBattery() override;
-	electricCar();
-	~electricCar();
+	ElectricCar();
+	~ElectricCar();
 };
 
 #endif // !ELECTRIC_HEADER

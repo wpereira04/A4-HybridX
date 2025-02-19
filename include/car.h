@@ -11,11 +11,11 @@
 #define CAR_HEADER
 #include <string>
 
-class car
+class Car
 {
 public:
-	car();
-	~car();
+	Car();
+	~Car();
 	// all can
 	virtual std::string Drive() = 0;
 	// all can

@@ -11,15 +11,15 @@
 #define GASOLINE_HEADER
 #include "car.h"
 
-class gasolineCar: virtual public car
+class GasolineCar: virtual public Car
 {
 public:
 	// pure virtual in car
 	std::string Drive();
 	// virtual in car
 	std::string Refuel() override;
-	gasolineCar();
-	~gasolineCar();
+	GasolineCar();
+	~GasolineCar();
 };
 #endif // !GASOLINE_HEADER
 

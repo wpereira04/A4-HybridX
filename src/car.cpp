@@ -9,34 +9,34 @@
 //
 #include "car.h"
 
-car::car() {
+Car::Car() {
 
 }
-car::~car() {
+Car::~Car() {
 
 }
 // FuelEfficiency is used by all classes thus doesn't need to be overrided
-double car::FuelEfficiency()
+double Car::FuelEfficiency()
 {
 	return 10;
 }
 // SwitchMode for use in hybrid
-std::string car::SwitchMode() {
+std::string Car::SwitchMode() {
 	return "SwitchMode Car";
 }
 /* 
  Refuel for use in gasoline and hybrid but has default to make electric
  not abstract.
 */
-std::string car::Refuel()
+std::string Car::Refuel()
 {
-	return "Refuel car";
+	return "Refuel Car";
 }
 /*
  ChargeBattery for use in electric and hybrid but has default to make gasoline
  not abstract.
 */
-std::string car::ChargeBattery() {
-	return "ChargeBattery car";
+std::string Car::ChargeBattery() {
+	return "ChargeBattery Car";
 }
 
