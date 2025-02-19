@@ -14,12 +14,12 @@
 
 
 TEST_CASE("Testing Movie project methods") {
-	hybridCar* hybrid;
-	electricCar* elec;
-	gasolineCar* gas;
+	hybridCar hybrid;
+	electricCar elec;
+	gasolineCar gas;
 
 	SECTION("Testing vehicle calls") {
-		REQUIRE(hybrid->Drive() == "Drive hybridCar");
+		REQUIRE(hybrid.Drive() == "Drive hybridCar");
 		REQUIRE(hybrid.Refuel() == "Refuel hybridCar");
 		REQUIRE(hybrid.ChargeBattery() == "ChargeBattery hybridCar");
 		REQUIRE(hybrid.SwitchMode() == "SwitchMode hybridCar");
@@ -27,9 +27,9 @@ TEST_CASE("Testing Movie project methods") {
 		REQUIRE(elec.ChargeBattery() == "ChargeBattery electricCar");
 		REQUIRE(gas.Drive() == "Drive gasolineCar");
 		REQUIRE(gas.Refuel() == "Refuel gasolineCar");
-		REQUIRE(hybrid.FuelEfficiency() == 20);
-		REQUIRE(elec.FuelEfficiency() == 20);
-		REQUIRE(gas.FuelEfficiency() == 20);
+		REQUIRE(hybrid.FuelEfficiency() == 10);
+		REQUIRE(elec.FuelEfficiency() == 10);
+		REQUIRE(gas.FuelEfficiency() == 10);
 
 	}
 	

@@ -1,5 +1,12 @@
 #include "car.h"
 
+car::car() {
+
+}
+car::~car() {
+
+}
+
 double car::FuelEfficiency()
 {
 	return 10;

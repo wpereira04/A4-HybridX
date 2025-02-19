@@ -7,12 +7,12 @@ project(HybridX)
 # Include the directory headers are located
 include_directories(${CMAKE_SOURCE_DIR}/include)
 # Add the main executable
-add_executable(HybridX src/car.cpp src/electricCar.cpp src/gasolineCar.cpp src/hybridCar.cpp)
+add_executable(HybridX src/car.cpp src/electricCar.cpp src/gasolineCar.cpp src/hybridCar.cpp src/main.cpp)
 
 ############################################
 
 # Add the test executable
-add_executable(my_test src/car.cpp src/electricCar.cpp src/gasolineCar.cpp src/hybridCar.cpp test/test.cpp)
+add_executable(my_test src/car.cpp src/electricCar.cpp src/gasolineCar.cpp src/hybridCar.cpp test/test.cpp )
 # Include directories for the test target
 target_include_directories(my_test PRIVATE ${PROJECT_SOURCE_DIR}/include)
 # Enable testing
