@@ -9,6 +9,12 @@
 //
 #include "electricCar.h"
 
+ElectricCar::ElectricCar() {
+
+}
+ElectricCar::~ElectricCar() {
+
+}
 // Redefines Drive function for electricCar
 std::string ElectricCar::Drive()
 {
@@ -20,10 +26,3 @@ std::string ElectricCar::ChargeBattery()
 	return "ChargeBattery ElectricCar";
 }
 
-ElectricCar::ElectricCar()
-{
-}
-
-ElectricCar::~ElectricCar()
-{
-}

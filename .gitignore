@@ -1,6 +1,3 @@
 build/
 out/
 .vs/
-src/main.cpp
-test/
-CMakeLists.txt

@@ -18,9 +18,9 @@ GasolineCar::~GasolineCar()
 }
 // Redefines Drive function for gasolineCar
 std::string GasolineCar::Drive() {
-	return "Drive gasolineCar";
+	return "Drive GasolineCar";
 }
 // Redefines Refuel function for gasolineCar
 std::string GasolineCar::Refuel() {
-	return "Refuel gasolineCar";
+	return "Refuel GasolineCar";
 }

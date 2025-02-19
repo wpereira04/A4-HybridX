@@ -24,7 +24,7 @@ double Car::FuelEfficiency()
 std::string Car::SwitchMode() {
 	return "SwitchMode Car";
 }
-/* 
+/*
  Refuel for use in gasoline and hybrid but has default to make electric
  not abstract.
 */

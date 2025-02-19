@@ -19,19 +19,19 @@ HybridCar::~HybridCar() {
 }
 // SwitchMode only for hybrid
 std::string HybridCar::SwitchMode() {
-	return "SwitchMode hybridCar";
+	return "SwitchMode HybridCar";
 }
 // Drive part of all classes
 std::string HybridCar::Drive() {
-	return "Drive hybridCar";
+	return "Drive HybridCar";
 }
 // Refuel part of hybrid and gasoline
-std::string HybridCar::Refuel(){
-	return "Refuel hybridCar";
+std::string HybridCar::Refuel() {
+	return "Refuel HybridCar";
 }
 // ChargeBattery part of hybrid and electric
 std::string HybridCar::ChargeBattery() {
-	return "ChargeBattery hybridCar";
+	return "ChargeBattery HybridCar";
 }
 
 

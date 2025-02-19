@@ -15,7 +15,7 @@ class Car
 {
 public:
 	Car();
-	~Car();
+	virtual ~Car();
 	// all can
 	virtual std::string Drive() = 0;
 	// all can

@@ -17,19 +17,21 @@ TEST_CASE("Testing Movie project methods") {
 	HybridCar hybrid;
 	ElectricCar elec;
 	GasolineCar gas;
-
+	HybridCar* hyb = new HybridCar();
 	SECTION("Testing vehicle calls") {
-		REQUIRE(hybrid.Drive() == "Drive hybridCar");
-		REQUIRE(hybrid.Refuel() == "Refuel hybridCar");
-		REQUIRE(hybrid.ChargeBattery() == "ChargeBattery hybridCar");
-		REQUIRE(hybrid.SwitchMode() == "SwitchMode hybridCar");
-		REQUIRE(elec.Drive() == "Drive electricCar");
-		REQUIRE(elec.ChargeBattery() == "ChargeBattery electricCar");
-		REQUIRE(gas.Drive() == "Drive gasolineCar");
-		REQUIRE(gas.Refuel() == "Refuel gasolineCar");
+		REQUIRE(hyb->Drive() == "Drive HybridCar");
+		REQUIRE(hybrid.Drive() == "Drive HybridCar");
+		REQUIRE(hybrid.Refuel() == "Refuel HybridCar");
+		REQUIRE(hybrid.ChargeBattery() == "ChargeBattery HybridCar");
+		REQUIRE(hybrid.SwitchMode() == "SwitchMode HybridCar");
+		REQUIRE(elec.Drive() == "Drive ElectricCar");
+		REQUIRE(elec.ChargeBattery() == "ChargeBattery ElectricCar");
+		REQUIRE(gas.Drive() == "Drive GasolineCar");
+		REQUIRE(gas.Refuel() == "Refuel GasolineCar");
 		REQUIRE(hybrid.FuelEfficiency() == 10);
 		REQUIRE(elec.FuelEfficiency() == 10);
 		REQUIRE(gas.FuelEfficiency() == 10);
+		REQUIRE(gas.Car::FuelEfficiency() == 10);
 
 	}
 	
