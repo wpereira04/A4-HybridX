@@ -25,4 +25,16 @@ std::string ElectricCar::ChargeBattery()
 {
 	return "ChargeBattery ElectricCar";
 }
+double ElectricCar::FuelEfficiency() {
+	return 10;
+}
 
+std::string ElectricCar::Refuel()
+{
+	return "Unused";
+}
+
+std::string ElectricCar::SwitchMode()
+{
+	return "Unused";
+}

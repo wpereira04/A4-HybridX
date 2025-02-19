@@ -8,8 +8,10 @@
 // Date:        02/19/2025
 //
 #include "hybridCar.h"
-
+#include <iostream>
 int main() {
-
+	ElectricCar elec;
+	GasolineCar gas;
+	std::cout << gas.FuelEfficiency();
 	return 0;
 }

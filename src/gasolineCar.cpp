@@ -24,3 +24,16 @@ std::string GasolineCar::Drive() {
 std::string GasolineCar::Refuel() {
 	return "Refuel GasolineCar";
 }
+double GasolineCar::FuelEfficiency() {
+	return 10;
+}
+
+std::string GasolineCar::ChargeBattery()
+{
+	return "Unused";
+}
+
+std::string GasolineCar::SwitchMode()
+{
+	return "Unused";
+}

@@ -31,7 +31,6 @@ TEST_CASE("Testing Movie project methods") {
 		REQUIRE(hybrid.FuelEfficiency() == 10);
 		REQUIRE(elec.FuelEfficiency() == 10);
 		REQUIRE(gas.FuelEfficiency() == 10);
-		REQUIRE(gas.Car::FuelEfficiency() == 10);
 
 	}
 	

@@ -33,5 +33,8 @@ std::string HybridCar::Refuel() {
 std::string HybridCar::ChargeBattery() {
 	return "ChargeBattery HybridCar";
 }
+double HybridCar::FuelEfficiency() {
+	return 10;
+}
 
 

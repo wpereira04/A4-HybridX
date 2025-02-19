@@ -17,7 +17,11 @@ public:
 	// pure virtual in car
 	std::string Drive();
 	// virtual in car
-	std::string Refuel() override;
+	std::string Refuel();
+	double FuelEfficiency();
+	// unused
+	std::string ChargeBattery();
+	std::string SwitchMode();
 	GasolineCar();
 	~GasolineCar();
 };

@@ -23,9 +23,10 @@ public:
 	// pure virtual
 	std::string Drive();
 	// virtual needs override
-	std::string Refuel() override;
+	std::string Refuel();
 	// virtual needs override
-	std::string ChargeBattery() override;
+	std::string ChargeBattery();
+	double FuelEfficiency();
 	// virtual needs override
 	std::string SwitchMode() override;
 };

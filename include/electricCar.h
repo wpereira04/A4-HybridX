@@ -20,7 +20,11 @@ public:
 	// pure virutal from car class no overrided needed
 	std::string Drive();
 	// chargeBattery is virtual so override
-	std::string ChargeBattery() override;
+	std::string ChargeBattery();
+	double FuelEfficiency();
+	// unused
+	std::string Refuel();
+	std::string SwitchMode();
 	ElectricCar();
 	~ElectricCar();
 };
